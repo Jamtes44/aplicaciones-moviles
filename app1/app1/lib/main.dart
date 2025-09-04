@@ -9,10 +9,14 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       home: Scaffold(
+        backgroundColor: Colors.blue,
         body: Center(
-          child: Text('Hello World!'),
+          child: Text(
+            'prueba',
+            style: TextStyle(color: const Color.fromARGB(255, 255, 0, 0)),
+          ),
         ),
       ),
     );
